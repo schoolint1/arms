@@ -1,0 +1,20 @@
+.spc-information:hover .spc__buttons {
+    display: inline;
+}
+.spc__buttons {
+    display: none;
+}
+.spc-user-class {
+    color: #6e7377;
+}
+
+.spc-extreport {
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    background-color: #fff3cd;
+    padding: .5rem;
+    border-radius: 4px;
+}
+.spc-extreport-title {
+    font-weight: bold;
+}

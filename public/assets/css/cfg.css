@@ -1,0 +1,30 @@
+.position-item,
+.year-item,
+.class-item {
+    margin-bottom: .25rem;
+}
+.year-item,
+.class-item {
+    height: 2rem;
+} 
+.position-item_edit,
+.year-item_edit,
+.class-item_edit,
+.personal-item_edit {
+    display: none;
+}
+.position-item:hover .position-item_edit,
+.year-item:hover .year-item_edit,
+.class-item:hover .class-item_edit {
+    display: inline;
+}
+.personal-item:hover .personal-item_edit {
+    display: inline;
+}
+.year-item_date {
+    font-size: 90%;
+    color: gray;
+}
+.personal-item {
+    height: 3.7rem;
+}

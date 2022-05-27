@@ -1,0 +1,107 @@
+.pln-chk-time {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.pln-chk-time label {
+    margin-right: .25em;
+    margin-left: .25em;
+}
+
+.user-activity {
+    display: block;
+    width: calc(100% - 30px);
+    position: absolute;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.user-activity:hover {
+    border: 2px solid #0056b3;
+}
+.plan-time-marker-group {
+    display: block;
+    position: absolute;
+    width: 0px; 
+    margin-top: -12px;
+    color: #dee2e6;
+    font-size: 90%;
+}
+.plan-time-marker {
+    height: 60px;
+}
+.plan-time-line-group {
+    display: block;
+    position: absolute;
+    width: calc(100% - 45px);
+    margin-left: 45px;
+}
+.plan-time-line {
+    width: 100%;
+    border-top: 1px solid #dee2e6;
+    height: 60px;
+}
+.user-activity-type-1 {
+    background-color: #f7f7f9dd;
+}
+.user-activity-type-2 {
+    background-color: #5bc0dedd;
+}
+.user-activity-type-3 {
+    background-color: #f082b4dd;
+}
+.user-activity__type {
+    font-size: 80%;
+    text-align: center;
+    margin-top: -2px;
+}
+.user-activity__time {
+    font-size: 80%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.plan-week-line {
+    border-right: 1px solid #dee2e6;
+    position: relative;
+    height: 780px;
+}
+.plan-week-title {
+    border-right: 1px solid #dee2e6;
+}
+.plan-week-line:last-child,
+.plan-week-title:last-child {
+    border-right: none;
+}
+.user-activity-info {
+    display: none;
+    border: 1px solid #71653a;
+    width: 100%;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    color: white;
+    background: black;
+    border-radius: 0.25rem; 
+}
+.user-activity-info__show {
+    display: block;
+}
+.user-activity-info:before, .user-activity-info:after {
+    content: "";
+    position: absolute;
+}
+
+.user-activity-info:before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+    left: 20px;
+    bottom: -10px;
+}
+
+/*.user-activity-info:after {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+    left: 20px;
+    bottom: -9px;
+}*/

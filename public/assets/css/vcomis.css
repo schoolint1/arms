@@ -1,0 +1,21 @@
+.head-content__selectedUser-name {
+    font-size: 120%;
+}
+.head-content__Zakl {
+    font-size: 90%;
+    color: gray;
+}
+.app-badget-outline {
+    border: 1px solid #dee2e6;
+    padding: .25rem .5rem;
+    border-radius: .2rem;
+}
+.app-badget {
+    display: inline-block;
+    bottom: 3px;
+    position: relative;
+}
+.app-badget-sm {
+    font-size: 90%;
+    margin-right: .25rem;
+}
